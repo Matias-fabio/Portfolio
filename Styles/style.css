@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: rgb(250, 250, 250);
+}
+
+header {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 90px;
+  line-height: 90px;
+  background: rgb(250, 250, 250);
+  padding-inline: 9vw;
+  z-index: 100;
+}
+
+.nav-menu,
+.nav_menu_list {
+  display: flex;
+}
+
+.nav-menu .nav_list {
+  list-style: none;
+  position: relative;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(68, 68, 68);
+  font-weight: 600;
+  padding-inline: 15px;
+  margin-inline: 20px;
+}
+.nav-link:hover {
+  color: #588a87;
+}
+
+.main_content {
+  padding-inline: 92.8px;
+}
+
+.pres-container {
+  position: relative;
+  display: flex;
+  height: 100vh;
+  min-height: 700px;
+}
+
+.pres-text {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  min-height: 80vh;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 20px;
+  cursor: default;
+}
+
+.pres-text-card span {
+  background: #bfb7a8;
+  color: #222;
+  padding: 3px 8px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.pres-text-card span:hover {
+  background-color: #588a87;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+.pres-name {
+  font-size: 50px;
+  font-weight: 600;
+  color: rgb(68, 68, 68);
+  margin-block: 20px;
+}
+
+.typedText {
+  text-transform: capitalize;
+  color: #588a87;
+}
+
+.pre-info {
+  font-size: 15px;
+  margin-bottom: 30px;
+  color: var(--text-color-second);
+}
+
+.social_icons {
+  display: flex;
+  margin-top: 16px;
+  gap: 30px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #7da4a1;
+}
+
+.pres-image {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  min-height: 80vh;
+  width: 50%;
+}
+.image {
+  margin: auto 0;
+  width: 380px;
+  height: 380px;
+}
+.image img {
+  width: 380px;
+  height: 380px;
+  object-fit: cover;
+}
+
+.header-title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 0.75em;
+  color: rgb(68, 68, 68);
+  font-weight: 600;
+  margin-block: 20px;
+}
